@@ -1,5 +1,5 @@
 Metadata-Version: 2.1
-Name: jsondbb
+Name: dbjson
 Version: 0.0.1
 Summary: 
     This is a simple flat file database which stores its data in a JSON file.
@@ -7,8 +7,8 @@ Summary:
     It can be used times when you are too lazy to write a schema and do other stuff for a ORM like SQLAlchemy.
     Data is structured in simple format of collections and records ( key-value pairs ).
     
-Home-page: https://github.com/pypa/sampleproject
-Author: Example Author
+Home-page: https://github.com/KetanIP/jsondbb
+Author: Ketan Iralepatil
 Author-email: 
 License: UNKNOWN
 Description: ## What is JsonDBB ?
