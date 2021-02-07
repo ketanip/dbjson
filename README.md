@@ -1,3 +1,7 @@
+# JsonDBB
+
+![](https://i.imgur.com/9lFqttd.png)
+
 ## What is JsonDBB ?
 
 This is a simple flat file database which stores its data in a JSON file.
@@ -5,9 +9,10 @@ It is NOT INTENTED TO USE IN PRODUCTION.
 It can be used times when you are too lazy to write a schema and do other stuff for a ORM like SQLAlchemy.
 
 Data is structured as follows:
-    Collections
-    ---- records
-    ---- ---- key value pair ( key: str, value: dictionary )
+
+Collections : contains records.
+records: contains key value pair.
+key value pair ( key: str, value: dictionary ).
 
 ### What can it Do ?
 
@@ -20,6 +25,15 @@ It can do all the basic things that a database can do, which includes:
 ### Why was it made ?
 
 Sometimes I am to lazy to setup database make database models and all that stuff, and I like key-value pair databases for small fun projects. So I could not find in python so I decided to make one for myself.
+
+
+### Installation 
+
+```bash
+git clone https://github.com/KetanIP/jsondbb.git
+cd jsondbb
+pip install .
+```
 
 ### Usage
 
@@ -153,11 +167,6 @@ key_to_remove = "packages_used"
 db.addkey(collection, record_key, key_to_remove)
 
 ```
-
-### Future Plans ( Todos )
-
-[] Make it multifile.
-[] Introduce Indexing.
 
 And lets see what comes next. 
 
