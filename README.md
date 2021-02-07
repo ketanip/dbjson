@@ -1,3 +1,5 @@
+![](https://i.imgur.com/9lFqttd.png)
+
 ## What is JsonDBB ?
 
 This is a simple flat file database which stores its data in a JSON file.
