@@ -1,8 +1,8 @@
-# JsonDBB
+# DBJson
 
-![](https://i.imgur.com/9lFqttd.png)
+![](https://i.imgur.com/gbT5IKB.png)
 
-## What is JsonDBB ?
+## What is DBJson ?
 
 This is a simple flat file database which stores its data in a JSON file.
 It is NOT INTENTED TO USE IN PRODUCTION.
@@ -54,7 +54,7 @@ Returns: ( record: dictionary )
 
 ```python
 
-from main import DB
+from dbjson import DB
 
 db = DB("db.json")
 my_data = {
@@ -79,7 +79,7 @@ Returns: ( record: dictionary )
 
 ```python
 
-from main import DB
+from dbjson import DB
 
 db = DB("db.json")
 
@@ -102,7 +102,7 @@ Returns: Notinh
 
 ```python
 
-from main import DB
+from dbjson import DB
 
 db = DB("db.json")
 
@@ -121,7 +121,7 @@ Returns: ( record: dictionary )
 
 ```python
 
-from main import DB
+from dbjson import DB
 
 db = DB("db.json")
 
@@ -157,7 +157,7 @@ Returns: Nothing
 
 ```python
 
-from main import DB
+from dbjson import DB
 
 db = DB("db.json")
 
