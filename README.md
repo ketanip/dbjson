@@ -154,11 +154,6 @@ db.addkey(collection, record_key, key_to_remove)
 
 ```
 
-### Future Plans ( Todos )
-
-[] Make it multifile.
-[] Introduce Indexing.
-
 And lets see what comes next. 
 
 Hope you guys like it.😊
