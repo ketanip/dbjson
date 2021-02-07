@@ -17,10 +17,10 @@ key value pair ( key: str, value: dictionary ).
 ### What can it Do ?
 
 It can do all the basic things that a database can do, which includes:
-    1. creating records
-    2. reading records
-    3. updating records
-    4. deleting records
+1. creating records
+2. reading records
+3. updating records
+4. deleting records
 
 ### Why was it made ?
 
