@@ -26,6 +26,15 @@ It can do all the basic things that a database can do, which includes:
 
 Sometimes I am to lazy to setup database make database models and all that stuff, and I like key-value pair databases for small fun projects. So I could not find in python so I decided to make one for myself.
 
+
+### Installation 
+
+```bash
+git clone https://github.com/KetanIP/jsondbb.git
+cd jsondbb
+pip install .
+```
+
 ### Usage
 
 To use this database you can import it as follows,
