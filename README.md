@@ -5,9 +5,10 @@ It is NOT INTENTED TO USE IN PRODUCTION.
 It can be used times when you are too lazy to write a schema and do other stuff for a ORM like SQLAlchemy.
 
 Data is structured as follows:
-    Collections
-    ---- records
-    ---- ---- key value pair ( key: str, value: dictionary )
+
+Collections : contains records.
+records: contains key value pair.
+key value pair ( key: str, value: dictionary ).
 
 ### What can it Do ?
 
