@@ -30,9 +30,7 @@ Sometimes I am to lazy to setup database make database models and all that stuff
 ### Installation 
 
 ```bash
-git clone https://github.com/KetanIP/jsondbb.git
-cd jsondbb
-pip install .
+pip install dbjson
 ```
 
 ### Usage
