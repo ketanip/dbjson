@@ -1,6 +1,6 @@
-# JsonDBB
+# DBJson
 
-![](https://i.imgur.com/9lFqttd.png)
+![](https://i.imgur.com/gbT5IKB.png)
 
 ## What is DBJson?
 
