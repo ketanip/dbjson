@@ -1,6 +1,10 @@
 # DBJson
 
-![](https://i.imgur.com/gbT5IKB.png)
+![](https://i.imgur.com/gbT5IKBm.jpg)
+
+### Getting started with DBJson
+
+![](https://i.imgur.com/Jp68wmK.jpg)
 
 ## What is DBJson?
 
