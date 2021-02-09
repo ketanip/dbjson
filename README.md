@@ -1,5 +1,5 @@
 <p align="center" width="100%">
-    <img width="33%" src="https://i.imgur.com/gbT5IKBm.jpg"> 
+    <img width="33%" src="https://i.imgur.com/gbT5IKBt.jpg>
 </p>
 
 ### Getting started with DBJson
