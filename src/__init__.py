@@ -1,1 +1,1 @@
-from jsondbb.main import DB
+import dbjson
