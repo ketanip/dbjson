@@ -2,9 +2,21 @@
     <img width="33%" src="https://i.imgur.com/gbT5IKBm.jpg">
 </p>
 
-### Getting started with DBJson
+# Getting started with DBJson
 
-![](https://i.imgur.com/Jp68wmK.jpg)
+## Importing DBJson
+![](https://i.imgur.com/SCvbcEU.png)
+
+## Adding Record
+![](https://i.imgur.com/ez4uI9O.png)
+
+## Updating Record
+![](https://i.imgur.com/IK2XkMV.png)
+
+## Deleting Record
+![](https://i.imgur.com/jMwpDlF.png)
+
+---
 
 ## What is DBJson?
 
