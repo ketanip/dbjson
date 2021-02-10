@@ -2,7 +2,7 @@ import hashlib
 from .fileio import *
 from .config import *
 from uuid import uuid4
-import pydash
+import pydash, time
 
 filo = fileIO()
 
@@ -50,7 +50,7 @@ class DB:
 
     # RECORDS
 
-    def createRecord(self, collection:str, data: dict, **kwargs) -> None:
+    def createRecord(self, collection:str, data: dict, **kwargs) -> dict:
         """
             This function creates a record in a given collection, and if it exists it overwrites it with the new data supplied.
         """
@@ -61,7 +61,9 @@ class DB:
         key = self.makeKey(key)
         filo.getOrMakeDir(collection)
         filo.getOrMakeDir(key, "record")
-        filo.writeJson(data_file, data)
+        
+        filo.writeJson(data_temp, data)
+        os.replace(data_temp, data_file)
        
         filo.baseReset()
 
@@ -97,7 +99,8 @@ class DB:
         for updated_data in data:
             record.update(updated_data)
 
-        filo.writeJson(data_file, record)
+        filo.writeJson(data_temp, data)
+        os.replace(data_temp, data_file)
 
         return record
 
