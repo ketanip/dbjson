@@ -55,6 +55,11 @@ Collections : contains records.
 records: contains key value pair.
 key value pair ( key: str, value: dictionary ).
 
+### What are its features ?
+
+It can CRUD data.
+It is ACID Compliant.
+
 ### What can it Do ?
 
 It can do all the basic things that a database can do, which includes:
