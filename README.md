@@ -58,7 +58,6 @@ key value pair ( key: str, value: dictionary ).
 ### What are its features ?
 
 It can CRUD data.
-It is ACID Compliant.
 
 ### What can it Do ?
 
