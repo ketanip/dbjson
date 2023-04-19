@@ -1,6 +1,6 @@
 from setuptools import setup, find_packages
 
-VERSION = '0.0.2' 
+VERSION = '0.0.3' 
 DESCRIPTION = 'JsonDBB - JSON Database Something'
 SHORT_DESCRIPTION = """
     This is a simple flat file database which stores its data in a JSON file.
@@ -17,13 +17,13 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="dbjson", # Replace with your own username
-    version="0.0.2",
+    version="0.0.3",
     author="Ketan Iralepatil",
     author_email="",
     description=SHORT_DESCRIPTION,
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/KetanIP/jsondbb",
+    url="https://github.com/KetanIP/dbjson",
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
