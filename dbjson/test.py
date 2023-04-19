@@ -1,4 +1,4 @@
-from dbjson.main import DB
+from dbjson.db import DB
 
 # Instatilizing DB class from dbjson.main
 db = DB()

@@ -99,7 +99,7 @@ class DB:
         for updated_data in data:
             record.update(updated_data)
 
-        filo.writeJson(data_temp, data)
+        filo.writeJson(data_temp, record)
         os.replace(data_temp, data_file)
 
         return record
@@ -121,6 +121,7 @@ class DB:
         """
             This function is used to scan recods in a given collection with the criteron provided to it.
         """
+        filo.baseReset()
         filo.getDir(collection)
         collection_dir = os.getcwd()
 
