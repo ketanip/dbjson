@@ -4,12 +4,12 @@
 
 # Getting started with DBJson
 
-Installation,
+### Installation
 
 ```bash
 pip install dbjson
 ```
-
+### Example 
 ```python
 from dbjson import DB
 # Use the syntax below if you plan to include raw code in your project.
