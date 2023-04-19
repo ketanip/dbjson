@@ -4,8 +4,16 @@
 
 # Getting started with DBJson
 
+Installation,
+
+```bash
+pip install dbjson
+```
+
 ```python
-from dbjson.main import DB
+from dbjson import DB
+# Use the syntax below if you plan to include raw code in your project.
+# from dbjson.db import DB 
 
 # Instatilizing DB class from dbjson.main
 db = DB()
