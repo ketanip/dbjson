@@ -1,21 +1,23 @@
+
 <p align="center" width="100%">
     <img width="33%" src="https://i.imgur.com/gbT5IKBm.jpg">
 </p>
 
-# Getting started with DBJson
+# 👨‍💻 Getting Started with DBJson
 
 ### Installation
 
 ```bash
 pip install dbjson
 ```
+
 ### Example 
 ```python
 from dbjson import DB
 # Use the syntax below if you plan to include raw code in your project.
 # from dbjson.db import DB 
 
-# Instatilizing DB class from dbjson.main
+# Initializing DB class from dbjson.main
 db = DB()
 
 # Test Data
@@ -49,38 +51,36 @@ db.removeRecord(collection, record_key)
 
 ---
 
-## What is DBJson?
+# 🤔 What is DBJson?
 
 Read the [DBJson docs here](https://ketanip.github.io/dbjson/) .
 
-This is a simple flat file database which stores its data in filesystem ( folders and JSONfiles ).
-It is NOT INTENTED TO USE IN PRODUCTION.
-It can be used times when you are too lazy to write a schema and do other stuff for a ORM like SQLAlchemy.
+DBJson is a straightforward flat file database system that securely houses its data within the filesystem, utilizing a combination of folders and JSON files. It is important to emphasize that DBJson is NOT INTENDED FOR PRODUCTION USE. However, it serves as an ideal solution for scenarios in which the creation of a formal schema and the execution of supplementary tasks typically associated with Object-Relational Mapping (ORM) frameworks, such as SQLAlchemy, seem overly laborious or unnecessary.
 
-Data is structured as follows:
 
-Collections : contains records.
-records: contains key value pair.
-key value pair ( key: str, value: dictionary ).
+### Data is structured as follows:
 
-### What are its features ?
+**Collections**: Contains records.
+**Records**: Contains key-value pairs.
+**Key-Value Pair**: (Key: str, Value: dictionary).
 
-It can CRUD data.
+### 🌟 What are its Features?
+DBJson facilitates the core operations of Create, Read, Update, and Delete (CRUD) on data, making it a versatile tool for managing information efficiently and effectively.
 
-### What can it Do ?
+### 💼 What Can it Do?
 
-It can do all the basic things that a database can do, which includes:
+It can perform all the basic operations that a database can do, including:
 
-1. creating records
-2. reading records
-3. updating records
-4. deleting records
-5. filter records
+1. Creating records
+2. Reading records
+3. Updating records
+4. Deleting records
+5. Filtering records
 
-### Why was it made ?
+### 🤷‍♂️ Why Was it Made?
 
-Sometimes I am to lazy to setup database make database models and all that stuff, and I like key-value pair databases for small fun projects. So I could not find in python so I decided to make one for myself.
+Sometimes, setting up a database, creating database models, and dealing with all that stuff can be a hassle. For small, fun projects, I prefer key-value pair databases. Since I couldn't find one in Python, I decided to create DBJson for myself.
 
-Hope you guys like it.😊
+Hope you find it useful. 😊
 
 Read the [DBJson docs here](https://ketanip.github.io/dbjson/) .
